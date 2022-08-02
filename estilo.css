@@ -1,0 +1,144 @@
+@import url('http://fonts.cdnfonts.com/css/pokemon-solid');
+@import url('http://fonts.cdnfonts.com/css/petahja-2');
+@import url('http://fonts.cdnfonts.com/css/romela');
+
+/* resets y basicos */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'comic Sans', sans-serif;
+    background-image: url("assets/img/background/pokémon-video-games-retro-games-pokemon-wallpaper.jpg");
+    background-size: 1900px 1000px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+p{
+    font-size: 0.8rem;
+}
+
+/* contenedores generales */
+
+.container{
+    margin: auto;
+    max-width: 1300px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+/* header */
+
+.header-div{
+    background-color: rgba(236, 236, 236, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    /* flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.logo{
+    width: 150px;
+    position: relative;
+    top: 55px;
+}
+
+.buscador{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.buscador-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgba(247, 169, 25, 0.8);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#card-section{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 10px;
+    flex-direction: row;
+}
+
+.card{
+    width: 500px;
+    height: 600px;
+    border-radius: 10px;
+    border: 10px solid rgba(235, 11, 11, 0.5);
+    border-color: rgba(235, 11, 11, 0.5);
+    background-color: rgba(238, 238, 238, 0.8);
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: flex-start;
+}
+
+.card-sprite{
+    border: 10px solid rgba(236, 236, 236, 0.5);
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+#sprite{
+    background-image: url("");
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+}
+
+#card-stats{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.types{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.type1{
+    background-image: url("assets/img/badget-type/Pokémon_Bug_Type_Icon.svg");
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+.type2{
+    background-image: url("assets/img/badget-type/Pokémon_Bug_Type_Icon.svg");
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
